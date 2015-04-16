@@ -3,9 +3,9 @@
 use Carbon\Carbon;
 use Faker\Factory as Faker;
 use Illuminate\Database\Seeder;
-use App\Permission;
-use App\Role;
-use App\User;
+use Calendar\Permission;
+use Calendar\Role;
+use Calendar\User;
 
 class ConstantsTableSeeder extends Seeder
 {

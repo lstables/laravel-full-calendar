@@ -1,7 +1,7 @@
-<?php namespace App\Http\Controllers;
+<?php namespace Calendar\Http\Controllers;
 
-use App\Http\Requests;
-use App\Http\Controllers\Controller;
+use Calendar\Http\Requests;
+use Calendar\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 
@@ -14,6 +14,6 @@ class PagesController extends Controller {
      */
     public function index()
     {
-        return view('pages.index');
+        return view('pages.timetable');
     }
 }

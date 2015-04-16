@@ -1,4 +1,4 @@
-<?php namespace App;
+<?php namespace Calendar;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -10,7 +10,7 @@ class Permission extends Model {
 
     public function roles()
     {
-        return $this->belongsToMany('App\Role')->withTimestamps();
+        return $this->belongsToMany('Calendar\Role')->withTimestamps();
     }
 
 }

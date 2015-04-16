@@ -1,4 +1,4 @@
-<?php namespace App;
+<?php namespace Calendar;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -10,12 +10,12 @@ class Role extends Model {
 
     public function users()
     {
-        return $this->belongsToMany('App\User');
+        return $this->belongsToMany('Calendar\User');
     }
 
     public function permissions()
     {
-        return $this->belongsToMany('App\Permission');
+        return $this->belongsToMany('Calendar\Permission');
     }
 
 }

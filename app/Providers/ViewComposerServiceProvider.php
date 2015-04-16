@@ -1,4 +1,4 @@
-<?php namespace App\Providers;
+<?php namespace Calendar\Providers;
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\ServiceProvider;

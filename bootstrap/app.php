@@ -28,18 +28,18 @@ $app = new Illuminate\Foundation\Application(
 
 $app->singleton(
 	'Illuminate\Contracts\Http\Kernel',
-	'App\Http\Kernel'
+	'Calendar\Http\Kernel'
 );
 
 $app->singleton(
 	'Illuminate\Contracts\Console\Kernel',
-	'App\Console\Kernel'
+	'Calendar\Console\Kernel'
 );
 
 $app->singleton(
 	'Illuminate\Contracts\Debug\ExceptionHandler',
-    'App\Exceptions\WhoopsHandler',
-	'App\Exceptions\Handler'
+    'Calendar\Exceptions\WhoopsHandler',
+	'Calendar\Exceptions\Handler'
 );
 
 /*
